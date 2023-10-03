@@ -19,14 +19,7 @@ public class Sample {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://www.facebook.com/");
 		
-		WebElement txtUsername = driver.findElement(By.id("email"));
-		txtUsername.sendKeys("sera");
 		
-		WebElement txtPassword = driver.findElement(By.id("pass"));
-		txtPassword.sendKeys("9898");
-		
-		WebElement btnLogin = driver.findElement(By.name("login"));
-		btnLogin.click();
 		
 		
 		
