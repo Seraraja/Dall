@@ -13,15 +13,7 @@ public class Sample {
 
 	public static void main(String[] args) {
 		
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver=new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		driver.get("https://www.facebook.com/");
-		
-		
-		
-		
+		System.out.println("Done");
 		
 		
 	}
